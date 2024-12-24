@@ -1,15 +1,15 @@
 number: '0123456789'
 symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
 lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'en_filtered'
+experiment_name: 'maha_captcha'
 train_data: 'all_data'
-valid_data: 'all_data/en_sample'
+valid_data: 'all_data/MahaCaptcha'
 manualSeed: 1111
 workers: 6
 batch_size: 32 #32
 num_iter: 300000
 valInterval: 20000
-saved_model: 'saved_models/english_g2.pth' #'saved_models/en_filtered/iter_300000.pth'
+saved_model: 'saved_models/maha_captcha.pth' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
 lr: 1.
