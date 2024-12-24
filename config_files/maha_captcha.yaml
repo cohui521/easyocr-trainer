@@ -5,10 +5,10 @@ experiment_name: 'maha_captcha'
 train_data: 'all_data'
 valid_data: 'all_data/MahaCaptcha'
 manualSeed: 1111
-workers: 6
+workers: 4
 batch_size: 32 #32
 num_iter: 300000
-valInterval: 20000
+valInterval: 500
 saved_model: 'saved_models/english_g2.pth' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
