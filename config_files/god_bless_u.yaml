@@ -1,9 +1,9 @@
 number: '0123456789'
 symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
 lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-experiment_name: 'maha_captcha'
+experiment_name: 'god_bless_u'
 train_data: 'all_data'
-valid_data: 'all_data/MahaCaptcha'
+valid_data: 'all_data/IdbiCaptcha'
 manualSeed: 1111
 workers: 4
 batch_size: 32 #32
