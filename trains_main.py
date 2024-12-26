@@ -29,5 +29,5 @@ def get_config(file_path):
     return opt
 
 
-opt = get_config("config_files/maha_captcha.yaml")
+opt = get_config("config_files/god_bless_u.yaml")
 train(opt, amp=False)
